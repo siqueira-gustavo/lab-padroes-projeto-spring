@@ -1,0 +1,11 @@
+package com.projeto.dio.gugacrmapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.projeto.dio.gugacrmapi.model.Client;
+
+@Repository
+public interface ClientRepository extends JpaRepository<Client, Long> {
+  
+}
